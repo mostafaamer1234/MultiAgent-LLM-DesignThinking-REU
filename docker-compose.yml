@@ -1,0 +1,16 @@
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      OPENAI_API_KEY: ${OPENAI_API_KEY:?set OPENAI_API_KEY in .env}
+      TAVILY_API_KEY: ${TAVILY_API_KEY:-}
+      ALLOW_SYNTHETIC_FALLBACK: ${ALLOW_SYNTHETIC_FALLBACK:-false}
+      RESEARCH_LLM_DATABASE_URL: sqlite:////app/data/jobs.db
+      CORS_ORIGINS: http://localhost:3000,http://127.0.0.1:3000
+    volumes:
+      - research_data:/app/data
+
+volumes:
+  research_data:

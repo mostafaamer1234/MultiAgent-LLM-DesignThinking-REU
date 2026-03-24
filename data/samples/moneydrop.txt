@@ -1,0 +1,26 @@
+Market Research:
+Boom in app development and online software tools meant many developers needed to accept payments.
+
+
+PayPal, Braintree, and Authorize.net were dominant but slow, clunky, and required merchant accounts.
+
+
+Setting up a payment gateway took weeks and required bank involvement.
+
+
+Hacker News forums were filled with complaints about payments integration.
+
+
+Developers wanted clean APIs, testing environments, and fast onboarding.
+
+Initial Customer Base:
+Solo developers building side projects.
+
+
+Startup teams launching SaaS apps.
+
+
+Mobile developers looking to integrate payments without heavy SDKs.
+
+
+

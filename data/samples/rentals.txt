@@ -1,0 +1,36 @@
+Market Research:
+The U.S. was entering a recession; people were financially stressed and looking for ways to make additional income.
+
+
+San Francisco and other tech hubs experienced frequent influxes of visitors due to large conferences (IDSA, WWDC), causing hotel prices to surge and bookings to fill quickly.
+
+
+Budget-conscious travelers, including students, freelancers, and young professionals, often couldn’t afford traditional hotel stays and sought alternatives.
+
+
+Craigslist provided a peer-to-peer rental solution, but it lacked user profiles, trust, reviews, and structured transactions.
+
+
+Couchsurfing.org offered free lodging but catered to a very niche, trust-based community and didn't allow payment or consistent availability.
+
+
+Increasing consumer familiarity with online marketplaces (eBay, Amazon) suggested that people were becoming more comfortable with transacting online.
+
+
+Urban residents often had spare rooms, couches, or air mattresses, especially among renters in cities like SF, NYC, and LA.
+
+
+No unified platform addressed both traveler affordability and homeowner monetization with trust-based design.
+
+Initial Customer Base:
+Attendees of high-demand events with fully booked hotels.
+
+
+Younger travelers seeking local, authentic, or unique stays.
+
+
+Renters and homeowners with temporary or recurring spare capacity.
+
+
+People who had previously used Couchsurfing or Craigslist but wanted safer, paid alternatives.
+

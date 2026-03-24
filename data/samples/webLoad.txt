@@ -1,0 +1,29 @@
+Widespread use of USB drives and email as primary file transfer tools.
+
+
+Rise of remote work and multi-device workflows highlighted the need for accessible file storage.
+
+
+File versioning and lost data were common frustrations among professionals and students.
+
+
+Existing tools like YouSendIt, FTP, and email attachments were unreliable, hard to use, or limited in size.
+
+
+The cloud was a growing concept but not mainstream; trust in online storage was still limited.
+
+
+Google Drive and iCloud did not exist yet.
+
+Initial Customer Base:
+College students moving between labs, dorms, and classrooms.
+
+
+Developers and startup teams needing collaborative file access.
+
+
+Freelancers and consultants with multiple devices.
+
+
+
+
