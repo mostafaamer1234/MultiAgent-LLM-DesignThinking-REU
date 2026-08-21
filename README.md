@@ -7,6 +7,32 @@ ResearchLLM is an end-to-end AI software engineering project that applies LLMs t
 
 This project is meant to demonstrate more than prompt writing. It shows how to build, organize, validate, and expose an AI workflow as software.
 
+## Public research package
+
+The repository now includes the evidence package requested for public reproducibility:
+
+- **Complete generated records:** [`artifacts/generated-outputs/`](artifacts/generated-outputs/) preserves both supplied Google Docs as searchable text, including the outputs for each method and use case.
+- **AI-judge transcripts:** [`artifacts/evaluation-transcripts/`](artifacts/evaluation-transcripts/) contains the public GPT-4o, Claude 3.7 Sonnet, and Grok 4 evaluation conversations.
+- **Code:** [`scripts/`](scripts/) contains the original agent workflows; [`src/research_llm/`](src/research_llm/) contains the packaged pipeline/API implementation.
+- **Provenance and limitations:** [`docs/REPRODUCIBILITY.md`](docs/REPRODUCIBILITY.md) records known settings, unavailable metadata, judge circularity, and the absence of an independent human score set.
+
+### Methods evaluated
+
+| Method | Market research | Design-thinking flow |
+|---|---|---|
+| Single prompt + model knowledge | Knowledge-based agent | Personas, hypotheses, and prototype recommendations in one pass |
+| Single prompt + web research | Web-search agent | Personas, hypotheses, and prototype recommendations in one pass |
+| Multi-agent + web research | Web-search agent | Persona generation and role-play, then hypothesis and prototype generation |
+
+The nine core experiments apply these three methods to computer-science education, Tesla charging/winter range, and wildfire infrastructure/policy.
+
+### Models used
+
+- Candidate-output generator: GPT-4o through LangChain/OpenAI API.
+- AI judges: GPT-4o (ChatGPT), Claude 3.7 Sonnet (Claude), and Grok 4 (Grok).
+
+The available record reports generation with temperature `0.0`, top-p `1.0`, a fixed seed, and a maximum-token setting. The numeric seed, maximum-token value, and exact dated API snapshot were not retained. Judge-side sampling settings and dated backend snapshots were not exposed by the consumer chat interfaces. See the [full reproducibility notes](docs/REPRODUCIBILITY.md) before interpreting or attempting to repeat the evaluation.
+
 ## Project Objective
 
 The objective of this project is to use LLMs to support the major stages of design thinking in a practical engineering system:
