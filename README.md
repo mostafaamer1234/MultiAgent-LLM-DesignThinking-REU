@@ -1,11 +1,29 @@
 # ResearchLLM: AI for Design Thinking
 
+![CI](https://github.com/mostafaamer1234/MultiAgent-LLM-DesignThinking-REU/actions/workflows/ci.yml/badge.svg)
+![Python](https://img.shields.io/badge/python-3.11%2B-blue)
+![License: MIT](https://img.shields.io/badge/license-MIT-green)
+
+> Penn State MC-REU research project (summer 2025): [LLMs for Design Thinking](https://sites.psu.edu/mcreu/2025/07/20/llms-for-design-thinking/). The manuscript is under review.
+
 
 AI software engineering portfolio project focused on design thinking, market research, persona generation, and hypothesis-driven product exploration.
 
 ResearchLLM is an end-to-end AI software engineering project that applies LLMs to the design thinking process. It turns raw market context into structured research, grounded personas, persona interviews, and testable product hypotheses through a reproducible workflow with a Python package, CLI pipeline, FastAPI service, persistent artifacts, and optional frontend.
 
 This project is meant to demonstrate more than prompt writing. It shows how to build, organize, validate, and expose an AI workflow as software.
+
+## Results at a glance
+
+Three AI judges compared the three methods on each use case. The table shows the method each judge picked as best, taken from the published transcripts in [`artifacts/evaluation-transcripts/`](artifacts/evaluation-transcripts/):
+
+| Use case | GPT-4o judge | Claude 3.7 Sonnet judge | Grok 4 judge |
+|---|---|---|---|
+| Computer-science education | Multi-agent + web | Multi-agent + web | Multi-agent + web |
+| Tesla charging / winter range | Multi-agent + web | Multi-agent + web | Multi-agent + web |
+| Wildfire infrastructure / policy | Multi-agent + web | Multi-agent + web | Multi-agent + web |
+
+**9 of 9 judge verdicts favored the multi-agent + web-research system.** The judges cited deeper personas, more systemic hypotheses and more test-ready prototypes. Caveat: these are LLM judges, and one of them, GPT-4o, is also the generator, so self-preference bias is possible. There is no independent human score set yet (see [docs/REPRODUCIBILITY.md](docs/REPRODUCIBILITY.md)).
 
 ## Public research package
 
