@@ -6,6 +6,9 @@
 
 > Penn State MC-REU research project (summer 2025): [LLMs for Design Thinking](https://sites.psu.edu/mcreu/2025/07/20/llms-for-design-thinking/). The manuscript is under review.
 
+**Project page: [researchllm-reu.vercel.app](https://researchllm-reu.vercel.app)**. The 9-of-9 judge results, the three methods side by side, and sample outputs. The page lives in `site/`.
+
+
 
 AI software engineering portfolio project focused on design thinking, market research, persona generation, and hypothesis-driven product exploration.
 
