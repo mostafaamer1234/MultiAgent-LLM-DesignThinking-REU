@@ -1,5 +1,7 @@
 # ResearchLLM: AI for Design Thinking
 
+**Project page: [researchllm-reu.vercel.app](https://researchllm-reu.vercel.app)**. The 9-of-9 judge results, the three methods side by side, and sample outputs.
+
 
 AI software engineering portfolio project focused on design thinking, market research, persona generation, and hypothesis-driven product exploration.
 
