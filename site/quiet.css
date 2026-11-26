@@ -19,6 +19,7 @@
   --hair-soft: #e8e8ed;
   --accent: #0071e3;
   --accent-ink: #ffffff;
+  --seg-on: #ffffff;
   --good: #248a3d;
   --bad: #d70015;
   --radius: 18px;
@@ -39,6 +40,7 @@
     --hair: #38383a;
     --hair-soft: #2a2a2c;
     --accent: #2997ff;
+    --seg-on: #48484a;
     color-scheme: dark;
   }
 }
@@ -104,7 +106,7 @@ a:hover { text-decoration: underline; }
 /* Segmented control (iOS/macOS) */
 .q-seg { display: inline-flex; padding: 2px; background: var(--bg-alt); border-radius: 9px; gap: 2px; }
 .q-seg button { border: 0; background: transparent; color: var(--ink); font: 500 13px/1 var(--font); padding: 7px 12px; border-radius: 7px; cursor: pointer; letter-spacing: -0.01em; }
-.q-seg button[aria-pressed="true"] { background: var(--bg); box-shadow: 0 1px 2px rgba(0,0,0,.12), 0 0 0 .5px rgba(0,0,0,.06); }
+.q-seg button[aria-pressed="true"] { background: var(--seg-on); box-shadow: 0 1px 2px rgba(0,0,0,.12), 0 0 0 .5px rgba(0,0,0,.06); }
 
 /* Slider */
 .q-range { -webkit-appearance: none; appearance: none; width: 100%; height: 4px; border-radius: 2px; background: var(--hair); outline: none; }
