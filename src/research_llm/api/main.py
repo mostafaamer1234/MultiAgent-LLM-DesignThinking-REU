@@ -31,8 +31,9 @@ app = FastAPI(title="ResearchLLM API", version="0.2.0")
 _origins = [o.strip() for o in settings.cors_origins.split(",") if o.strip()]
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=_origins if _origins else ["*"],
-    allow_credentials=True,
+    # Never pair a wildcard origin with credentials; an empty CORS_ORIGINS means no cross-origin access.
+    allow_origins=_origins,
+    allow_credentials=bool(_origins),
     allow_methods=["*"],
     allow_headers=["*"],
 )

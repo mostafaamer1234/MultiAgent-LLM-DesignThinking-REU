@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About · ResearchLLM</title>
+  <meta name="description" content="A Penn State MC-REU study: three ways to use LLMs for design thinking, judged by GPT-4o, Claude 3.7 Sonnet and Grok 4 across three markets." />
+  <link rel="stylesheet" href="quiet.css" />
+  <link rel="stylesheet" href="app.css" />
+</head>
+<body>
+  <nav class="q-nav">
+    <div class="q-wrap">
+      <a class="q-brand" href="/">ResearchLLM</a>
+      <div class="q-links">
+        <a href="/">Open the studio</a>
+        <a href="#verdicts">Results</a>
+        <a href="#methods">Methods</a>
+        <a href="https://github.com/mostafaamer1234/MultiAgent-LLM-DesignThinking-REU">GitHub</a>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <header class="q-wrap q-hero">
+      <p class="q-eyebrow">AI research · Penn State MC-REU 2025</p>
+      <h1 class="q-title">Three judges. Three markets. <span class="q-muted">Nine verdicts, one method every time.</span></h1>
+      <p class="q-lede">Can LLMs carry a product team from market uncertainty to testable hypotheses? We compared three ways of asking, then had three different models judge the results.</p>
+    </header>
+
+    <section class="q-wrap" id="verdicts">
+      <div class="verdict-wrap">
+        <div class="tally">
+          <div class="q-num tally-num">9<small>/9</small></div>
+          <p class="q-small">judge verdicts picked <b>multi-agent + web research</b> as the best method.</p>
+        </div>
+        <table class="grid" aria-label="Method picked by each judge for each use case">
+          <thead><tr><th></th><th>GPT-4o</th><th>Claude 3.7 Sonnet</th><th>Grok 4</th></tr></thead>
+          <tbody>
+            <tr><th>Computer-science education</th><td><i></i></td><td><i></i></td><td><i></i></td></tr>
+            <tr><th>Tesla charging and winter range</th><td><i></i></td><td><i></i></td><td><i></i></td></tr>
+            <tr><th>Wildfire infrastructure and policy</th><td><i></i></td><td><i></i></td><td><i></i></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="q-note caveat">Every filled cell is a judge choosing the multi-agent system. Judges cited deeper personas, more systemic hypotheses and more test-ready prototypes. These are LLM judges, and GPT-4o also generated the candidates, so treat this as strong directional evidence rather than a human study.</p>
+    </section>
+
+    <section class="q-wrap q-section" id="methods">
+      <h2 class="q-h2">Same brief. <span class="q-muted">Three ways to think it through.</span></h2>
+      <div class="q-seg" id="method" role="group" aria-label="Method"></div>
+      <p class="method-desc" id="method-desc"></p>
+      <ol class="flow" id="flow"></ol>
+    </section>
+
+    <section class="q-wrap q-section">
+      <h2 class="q-h2">What comes out.</h2>
+      <p class="q-lede sample-lede">An excerpt from the computer-science education run. Full outputs and all three judge transcripts are published in the repository.</p>
+      <div class="sample">
+        <div class="card">
+          <p class="q-caps">Persona</p>
+          <h3 class="q-h3">Alex Thompson, 20</h3>
+          <p class="q-small">Undergraduate, computer science · San Francisco</p>
+          <dl>
+            <dt>Goals</dt><dd>Gain skills in AI and machine learning. Secure an internship. Graduate with a job offer.</dd>
+            <dt>Pain points</dt><dd>Outdated curriculum. Few industry connections. Little practical coursework.</dd>
+          </dl>
+        </div>
+        <div class="card">
+          <p class="q-caps">Hypotheses</p>
+          <ol class="hyp">
+            <li>Adding AI, machine learning and data science to the curriculum will raise student satisfaction and job placement.</li>
+            <li>Internships and guest lectures from industry will improve practical skills and employability.</li>
+            <li>Training faculty in practical teaching will improve teaching effectiveness and outcomes.</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <section class="q-wrap q-section">
+      <h2 class="q-h2">Built as software, <span class="q-muted">not a notebook.</span></h2>
+      <div class="q-steps">
+        <div class="q-step"><h3 class="q-h3">Package and API</h3><p>An installable package with a FastAPI service for asynchronous research jobs, polling, and JSON artifacts saved for inspection.</p></div>
+        <div class="q-step"><h3 class="q-h3">Agents, separated</h3><p>Web market research, persona generation and role-play interviews, and hypothesis synthesis are separate agents with their own prompts.</p></div>
+        <div class="q-step"><h3 class="q-h3">Reproducible record</h3><p>Generated outputs, judge transcripts, known settings and their limits are documented, including what was not retained.</p></div>
+      </div>
+      <p class="links"><a class="q-more" href="https://sites.psu.edu/mcreu/2025/07/20/llms-for-design-thinking/">Read the MC-REU write-up</a> <a class="q-more" href="https://github.com/mostafaamer1234/MultiAgent-LLM-DesignThinking-REU/tree/portfolio-upgrade/artifacts">Browse outputs and transcripts</a></p>
+    </section>
+  </main>
+
+  <footer class="q-foot">
+    <div class="q-wrap">
+      <span>ResearchLLM · Mostafa Amer · Manuscript under review</span>
+      <a href="https://github.com/mostafaamer1234/MultiAgent-LLM-DesignThinking-REU">Source on GitHub</a>
+    </div>
+  </footer>
+  <script src="about.js"></script>
+</body>
+</html>
