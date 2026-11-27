@@ -6,7 +6,7 @@
 
 > Penn State MC-REU research project (summer 2025): [LLMs for Design Thinking](https://sites.psu.edu/mcreu/2025/07/20/llms-for-design-thinking/). The manuscript is under review.
 
-**Project page: [researchllm-reu.vercel.app](https://researchllm-reu.vercel.app)**. The 9-of-9 judge results, the three methods side by side, and sample outputs. The page lives in `site/`.
+**Try it: [researchllm-reu.vercel.app](https://researchllm-reu.vercel.app)**. A design-thinking whiteboard: explore a saved run, or describe your own product and the agents produce market research, three personas you can interview, hypotheses and prototype plans, calling OpenAI from your browser with your own key. Sample board: `python tools/export_site_sample.py`. Study results are at [/about](https://researchllm-reu.vercel.app/about).
 
 
 
